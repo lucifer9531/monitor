@@ -1,0 +1,33 @@
+{
+  "name": "@monitor/engine",
+  "version": "0.6.0",
+  "description": "前端监控引擎-主模块",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w"
+  },
+  "homepage": "https://github.com/ruixijiejie/monitor",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ruixijiejie/monitor.git"
+  },
+  "author": "IRIS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruixijiejie/monitor/issues"
+  },
+  "dependencies": {
+    "@monitor/collector-browser": "^0.6.0",
+    "@monitor/collector-error": "^0.6.0",
+    "@monitor/collector-track": "^0.6.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
